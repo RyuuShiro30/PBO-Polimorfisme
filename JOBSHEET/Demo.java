@@ -8,5 +8,11 @@ public class Demo {
         System.out.println(pegawai1.nip);
         System.out.println(pegawai1.nama);
         pegawai1.displayInfo();
+
+        Dosen newDosen = (Dosen) pegawai1;
+        System.out.println(newDosen.nip);
+        System.out.println(newDosen.nama);
+        newDosen.mengajar();
+
         }
     }
